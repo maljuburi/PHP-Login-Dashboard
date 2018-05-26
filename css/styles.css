@@ -1,0 +1,269 @@
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url("../img/bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.white-text{
+    color: white;
+}
+
+.error {
+    color: #ff7979;
+    background: #222627;
+    text-shadow: 0 0 0.2em black;
+    border-radius: 1em;
+}
+
+.msg {
+    color: #afff79;
+    background: #222627;
+    text-shadow: 0 0 0.2em black;
+    border-radius: 1em;
+}
+
+.login,
+.reset {
+    width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.flex-center {
+    width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.flex-form {
+    background-color: rgba(10, 10, 10, 0.5);
+    padding: 2em;
+    color: white;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em black;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date],
+select,
+textarea {
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 0.5em 0;
+    background: #222627;
+    border: none;
+    color: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.5em black inset;
+    margin-bottom: 1.5em;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #dff5ff;
+}
+
+form p {
+    text-align: center;
+}
+
+form a {
+    color: #dff5ff;
+}
+
+input[type=submit],
+input[type=reset],
+input[type=button] {
+    outline: none;
+    padding: 1em 2em;
+    background: #222627;
+    background: linear-gradient(#3f4749, #222627, #303738);
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    box-shadow: 0 0 0.3em black;
+}
+
+input[type=submit]:active,
+input[type=submit]:hover,
+input[type=button]:active,
+input[type=button]:hover,
+input[type=reset]:active,
+input[type=reset]:hover {
+    background: #181b1b;
+}
+
+header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0.1em 0.2em black;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.user-title {
+    padding-top: 2em;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    cursor: default;
+}
+.page-title {
+    padding-top: 2em;
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+}
+
+hr {
+    margin: 0.5em 0 0.1em 0;
+    border: 1px solid #dff5ff;
+}
+
+.logout {
+    float: right;
+    background: #702630 !important;
+    background: linear-gradient(#922c2c, #641e1e, #922c2c)!important;
+}
+
+.logout:active,
+.logout:hover {
+    background: #181b1b !important;
+}
+
+
+/* Incidents Report */
+
+.add-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4em;
+    text-align: right;
+}
+
+.incidents-table,
+.employees-table {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+    box-shadow: 0 0 0.5em black;
+}
+
+.incidents-table tr:nth-child(even),
+.employees-table tr:nth-child(even) {
+    background-color: #b4d8e2;
+}
+
+.incidents-table tr:nth-child(odd),
+.employees-table tr:nth-child(odd) {
+    background-color: white;
+}
+
+.incidents-table th,
+.employees-table th {
+    color: white;
+    background: linear-gradient(#1b6fa0, #145072, #1b6fa0);
+    padding: 0.5em;
+}
+
+.incidents-table td,
+.employees-table td {
+    text-align: center;
+}
+
+.edit-btn {
+    outline: none;
+    padding: 0.2em 0.5em;
+    background: #222627;
+    background: linear-gradient(#55922c, #3b641e, #55922c);
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    box-shadow: 0 0 0.3em black;
+}
+
+.edit-btn:hover {
+    background: #181b1b;
+}
+
+.welcome-title{
+   color: white;
+   text-shadow: 0 0 0.5em black;
+   margin-top: 6em;
+   text-transform: uppercase;
+   padding: 1em;
+}
+
+.welcome-title span{
+    color: #222627;
+    font-size: 2em;
+}
+
+/* new employee */
+
+.new-employee-container,
+.new-incident-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 50%;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0.3em black;
+    color: white;
+}
+
+.green-btn {
+    background: linear-gradient(#55922c, #3b641e, #55922c)!important;
+}
+
+.green-btn:hover {
+    background: #181b1b!important;
+}
+
+.red-btn {
+    background: linear-gradient(#922c2c, #641e1e, #922c2c)!important;
+}
+
+.red-btn:hover {
+    background: #181b1b!important;
+}
+
+.blue-btn {
+    background: linear-gradient(#2c5892, #203f68, #2c5892)!important;
+}
+
+.blue-btn:hover {
+    background: #181b1b!important;
+}
