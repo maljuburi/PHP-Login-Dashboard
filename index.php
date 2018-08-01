@@ -1,8 +1,5 @@
 <?php
-
-include_once "php/checklogin.php";
-
-
+include "./php/checkLogin.php";
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +12,6 @@ include_once "php/checklogin.php";
     <title>Incident | Login</title>
 </head>
 <body>
-    
     <div class="login">
         <form class="flex-form" action="" method="POST">
                 <h1 class="center">LOGIN</h1>

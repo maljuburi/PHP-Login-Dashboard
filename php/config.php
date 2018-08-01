@@ -23,12 +23,12 @@ if ($env=="hvcc"){
     //your login is also the db name
 }else if ($env=="local"){
     //For local Development
-    $db_uname="root";
+    $db_uname="maljuburi";
     //Your Local Development User Name
-    $db_pw="";
+    $db_pw="dd631989";
     //Your Local Password
     $db_server="localhost";
-    $db_dbname="maljuburi";
+    $db_dbname="php_projects";
     //your login should also the db name if you set it up
 }
 ?>
