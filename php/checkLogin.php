@@ -14,10 +14,7 @@ if(isset($_POST['submit'])){
       $sql = "SELECT * FROM fp_login WHERE username='$uname' AND password='$pwd'";
       $result = mysqli_query($conn, $sql);
       $rows = mysqli_num_rows($result);
-      var_dump($uname);
-      var_dump($sql);
-      var_dump($pwd);
-      var_dump($rows);
+
       if($rows == 1){
           while($rows = mysqli_fetch_assoc($result)) {
               $accessLevel = $rows['role'];
